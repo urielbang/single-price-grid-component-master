@@ -13,14 +13,57 @@ body {
 .container {
   display: flex;
   width: 100%;
-  height: 96vh;
+  height: 95vh;
   justify-content: center;
   align-items: center;
 }
 .card {
-  width: 50%;
-  height: 60%;
+  width: 50vw;
+  height: 60vh;
   background-color: white;
   box-shadow: 10px 10px 20px 1px rgba(128, 128, 128, 0.397);
   border-radius: 5px;
+}
+.upContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Karla", sans-serif;
+}
+.joinP {
+  color: hsl(179, 62%, 43%);
+  font-weight: bold;
+  font-size: 27px;
+}
+.hassle-free {
+  color: hsl(71, 73%, 54%);
+  font-size: 20px;
+  font-weight: bold;
+}
+.gainSpan {
+  color: rgba(128, 128, 128, 0.384);
+  font-weight: bold;
+  text-align: justify;
+  margin-right: 8vw;
+}
+.upContainer p,
+span {
+  margin-left: 5vw;
+}
+.downContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.downLeft {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+.downRight {
+  width: 50%;
+  height: 100%;
+  background-color: black;
 }
